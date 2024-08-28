@@ -1,0 +1,72 @@
+/*general body style*/
+body{
+    background-color: yellow(136, 255, 0);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkblue;
+    }
+/*nav bar stying*/
+nav{
+    background-color: rgb(10, 9, 8);
+    color: rgb(12, 12, 235);
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+/*button styling*/
+button{
+    background-color: grey(255, 0, 106);
+    color: rgb(18, 18, 19);
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: bold;
+}
+/* header styles */
+header{
+    background-color:goldenrod ;
+    color: yellow;
+    text-align: center;
+    padding: 30px;
+
+}
+/*profile image styles*/
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+section{
+    background-color: yellow;
+    color: red;
+}
+section h2{
+    color: black;
+}
